@@ -7,8 +7,8 @@ public class WeatherMain {
     private double temp;
     private int pressure;
     private int humidity;
-    private int temp_min;
-    private int temp_max;
+    private double temp_min;
+    private double temp_max;
 
     public double getTemp() {
         return temp;
@@ -22,11 +22,11 @@ public class WeatherMain {
         return humidity;
     }
 
-    public int getTemp_min() {
+    public double getTemp_min() {
         return temp_min;
     }
 
-    public int getTemp_max() {
+    public double getTemp_max() {
         return temp_max;
     }
 }
